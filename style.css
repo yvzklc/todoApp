@@ -57,3 +57,30 @@ h3{
     cursor: pointer;
     font-weight: bold;
 }
+
+
+/*! THIS SECTION FOR AFTER JS */
+
+.circle{
+    border: 1px solid red;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+    background-origin: padding-box;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.delete{
+    position: absolute;
+    right: 0;
+}
