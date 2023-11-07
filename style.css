@@ -94,7 +94,7 @@ li{
 .pchecked:first-child {
     background-color: #ff7a48;
     text-decoration: none;
-    content: url(./img/ok3.jpg);
+    content: url(./images/ok3.jpg);
     color: white;
     display: flex;
     align-items: center;

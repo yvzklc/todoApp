@@ -38,3 +38,42 @@ task.appendChild(text)
 deleteButton.appendChild(x)
 input.value = ''
 })
+
+ul.addEventListener('click',(e)=>{
+
+
+    if(e.target.classList.contains('delete')){
+
+        e.target.parentElement.remove()
+
+    } else if(e.target.classList.contains('circle')){
+
+        e.target.classList.toggle('pchecked')
+        e.target.closest('li').querySelector('span').classList.toggle('span-checked')
+
+    } else if(e.target.classList.contains('li')){
+
+        e.target.querySelector('p').classList.toggle('pchecked')
+
+        e.target.querySelector('span').classList.toggle('span-checked')
+
+    }else if(e.target.classList.contains('task')){
+
+        e.target.classList.toggle('span-checked')
+        e.target.previousElementSibling.classList.toggle('pchecked')
+    }
+
+    
+
+
+})
+
+
+
+
+
+
+
+
+
+
