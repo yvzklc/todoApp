@@ -83,3 +83,20 @@ li{
     position: absolute;
     right: 0;
 }
+
+
+.pchecked:first-child {
+    background-color: #ff7a48;
+    text-decoration: none;
+    content: url(./img/ok3.jpg);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+  
+  .span-checked {
+    text-decoration: line-through;
+    color: rgb(109, 107, 107);
+  }
