@@ -28,3 +28,32 @@ h2{
     margin: auto;
     font-family: cursive;
 }
+
+h3{
+    color: red;
+}
+
+.container-2{
+    background-color: rgb(231, 229, 229);
+    border-radius: 40px;
+}
+
+#input{
+    border: none;
+    background-color: inherit;
+    padding: .7rem 1.3rem;
+    border-radius: 40px;
+    outline: none;
+}
+
+#add{
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    padding: .7rem 1.3rem;
+    width: 90px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+    font-weight: bold;
+}
