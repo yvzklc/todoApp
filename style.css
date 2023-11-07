@@ -74,7 +74,6 @@ h3{
 li{
     list-style-type: none;
     background-origin: padding-box;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     position: relative;
