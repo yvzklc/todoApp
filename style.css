@@ -82,6 +82,12 @@ li{
 .delete{
     position: absolute;
     right: 0;
+   color: red;
+   background: none;
+   border: none;
+   font-weight: 900;
+   font-size: 20px;
+   cursor: pointer;
 }
 
 
