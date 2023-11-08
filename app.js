@@ -45,6 +45,12 @@ addButton.addEventListener("click", () => {
     deleteButton.appendChild(x);
     input.value = "";
   }
+  const textValue = document.querySelector(".text1").value
+  if(arr.includes(textValue)){
+      alert("Bu değer zaten girildi")
+  }else {
+  arr.push(text1.value)
+  }
 });
 
 ul.addEventListener("click", (e) => {
